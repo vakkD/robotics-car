@@ -2,17 +2,18 @@ This document includes prototype and the three statements.
 
 <br><br>
 
-At the start we wanted to use a RF module but we did not have immediate access to one. We thought of using infrared but quickly turned that idea down due to the many restrictions.
+At the start we wanted to use a radio frequency module (allowing for communication of components over radio signals) but we did not have immediate access to one. We thought of using infrared but quickly turned that idea down due to the many restrictions (having to be pointed at the car, wont work through ojects).
 Then we started looking into a bluetooth module, I tried experimenting with a module from the school but could not get it to work.
 We had the idea of using WiFi and immediately this seemed like a good solution as it is much faster and has a larger range than bluetooth.
 We thought this would be a future proof solution that would allow the use of more components so we decided to controll using the <a href="https://www.jaycar.com.au/mega-with-wi-fi/p/XC4421">Mega with WiFi</a> (module called ESP8266). 
 On this we will setup a webserver for a phone to connect to, controlling the car. 
 When connected to server the user will have a joystick to make the car move, similar to a real life joystick.
 Data needs to be uploaded for the server to display the controlls (html layout) which we did not finish creating, but successfully got the server to work.
-Learning HTML I thought was a bit challenging because it is quite different from C, still there is more .
+Learning HTML I thought was a bit challenging because it is quite different from C language, still there is more researching and learning to do before the final result.
 
 
 This is the code for the server, I added comments where needed.
+
 ```
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
@@ -126,7 +127,7 @@ Below is the diagram for the car, with measurements of all the components.</br>
 ![car diagram](https://github.com/vakkD/robotics-car/blob/main/52B5EE9D-5BC2-4ABD-8478-D297F068B930.jpeg)</br>
 
 <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ackermann_turning.svg/1200px-Ackermann_turning.svg.png">Here</a> is a diagram of the ackermann steering.
-Using the servo to move the bar.
+Using the servo to move the bar. This steering system is what most cars use, if not something similar. It allows for smoother, quicker and easier turns.
 
 </br></br>
 
@@ -146,3 +147,9 @@ Once we figure out a solution to the power problem, it should be much easier fro
 <br><br>
 
 So far the soldering tutorial I made has not come into use, but I think it definitely will after the prototype stage.
+
+<br><br>
+
+This is how the car looked in the end.
+
+<img src="https://github.com/vakkD/robotics-car/blob/0278d7dfe78411b354849be55037de4f5967d751/prototypecar.jpeg" width="35%">
