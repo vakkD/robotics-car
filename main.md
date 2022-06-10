@@ -145,4 +145,4 @@ Once we figure out a solution to the power problem, it should be much easier fro
 
 <br><br>
 
-So far the soldering tutorial I made has not 
+So far the soldering tutorial I made has not come into use, but I think it definitely will after the prototype stage.
