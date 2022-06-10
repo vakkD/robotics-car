@@ -133,6 +133,7 @@ Using the servo to move the bar. This steering system is what most cars use, if 
 
 The first prototype for the car is made out of cardboard and components held down using zipties, to ensure that the componets can be changed and moved around easily.
 Still in this first prototype we decided to not include the ackermann steering system because of time restraints and chose to instead turn using wheel speed.
+We got the joystick connected so that we could have something to replace the WiFi controller until finished, but was pointless because with the motors not working.
 We firstly wanted to 3D print the car shell. <a href="https://github.com/vakkD/robotics-car/blob/0085ab7558148f43ecdcb71a4b3425b9330547cf/car%20robotics%20v3.obj">This</a> is the rough test model I made for the car. 
 I tried to print this at home, but was not able to due to printer issues. We settled to instead use cardboard to create the prototype.
 I connected the Arduino Mega to the motor controller and connected one motor, with one 9V battery connected, this is a video of the left motor spinning. </br>
